@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     ollama_url: str = "http://localhost:11434"
     embedding_model: str = "CHOOSE_AFTER_TESTING"
     llm_model: str = "CHOOSE_AFTER_TESTING"
+    gemini_api_key: str = ""
+    groq_api_key: str = ""
     data_dir: Path = Path("data")
     max_upload_mb: int = 25
     chunk_size: int = 800
