@@ -9,7 +9,8 @@ class Settings(BaseSettings):
 
     qdrant_url: str = "http://localhost:6333"
     ollama_url: str = "http://localhost:11434"
-    embedding_model: str = "CHOOSE_AFTER_TESTING"
+    embedding_model: str = "gemini-embedding-001"
+    embedding_dimension: int = 768
     llm_model: str = "CHOOSE_AFTER_TESTING"
     gemini_api_key: str = ""
     groq_api_key: str = ""
