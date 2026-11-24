@@ -9,7 +9,7 @@ requires-python = ">=3.12"
 dependencies = [
   "fastapi", "uvicorn[standard]", "python-multipart",
   "pydantic", "pydantic-settings",
-      "qdrant-client", "ollama", "pymupdf", "pypdf", "pdfplumber", "python-docx", "httpx",
+      "qdrant-client", "ollama", "google-genai", "pymupdf", "pypdf", "pdfplumber", "python-docx", "httpx",
 ]
 
 [project.optional-dependencies]
