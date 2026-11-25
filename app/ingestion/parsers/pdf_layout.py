@@ -3,7 +3,6 @@ import re
 import unicodedata
 from collections import Counter
 
-
 JOINERS = set(",.:/+-@_&=?#")  # neutrals that stay inside a Latin word or a number
 COLUMN_GAP = 1.0  # a gap wider than this many font sizes separates table cells
 WORD_GAP = 0.2  # a gap wider than this many font sizes is a space
