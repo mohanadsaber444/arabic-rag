@@ -1,0 +1,2 @@
+date,questions,hit_rate,mrr,answer_accuracy,refusal_rate,chunk_size,top_k,embedding_model,llm_model
+2026-11-27,25,100,0.97,100,100,800,5,qwen3-embedding:0.6b,qwen2.5:7b

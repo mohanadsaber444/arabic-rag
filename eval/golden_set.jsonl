@@ -1,0 +1,25 @@
+{"id":"q01","question":"كم مدة فترة الإشعار؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"30 يوماً","answer_contains":"30"}
+{"id":"q02","question":"كم يوماً الإجازة السنوية؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"21 يوماً","answer_contains":"21"}
+{"id":"q03","question":"ما ساعات الدوام الرسمي؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"08:00","answer_contains":"08:00"}
+{"id":"q04","question":"كم مدة إجازة الأمومة؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"70 يوماً","answer_contains":"70"}
+{"id":"q05","question":"كم يوماً الإجازة المرضية في السنة؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"15 يوماً","answer_contains":"15"}
+{"id":"q06","question":"كم مدة فترة التجربة للموظف الجديد؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"90 يوماً","answer_contains":"90"}
+{"id":"q07","question":"كم يوماً يُسمح بالعمل عن بعد في الأسبوع؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"يومين","answer_contains":"يومين"}
+{"id":"q08","question":"كم ميزانية التدريب السنوية لكل موظف؟","type":"arabic_numeric","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"1,200 دولار","answer_contains":"1200"}
+{"id":"q09","question":"كم بدل المواصلات الشهري؟","type":"arabic_numeric","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"60 دولاراً","answer_contains":"60"}
+{"id":"q10","question":"كم يوماً إجازة الزواج؟","type":"arabic_fact","answerable":true,"expected_file":"hr_policy_ar.txt","expected_text":"5 أيام","answer_contains":"5"}
+{"id":"q11","question":"How long must a password be?","type":"english_fact","answerable":true,"expected_file":"it_security_en.txt","expected_text":"12 characters","answer_contains":"12"}
+{"id":"q12","question":"How often must passwords be changed?","type":"english_fact","answerable":true,"expected_file":"it_security_en.txt","expected_text":"90 days","answer_contains":"90"}
+{"id":"q13","question":"How quickly must a lost device be reported?","type":"english_fact","answerable":true,"expected_file":"it_security_en.txt","expected_text":"24 hours","answer_contains":"24"}
+{"id":"q14","question":"What time are backups taken each day?","type":"english_numeric","answerable":true,"expected_file":"it_security_en.txt","expected_text":"02:00","answer_contains":"02:00"}
+{"id":"q15","question":"How long are backups kept?","type":"english_fact","answerable":true,"expected_file":"it_security_en.txt","expected_text":"30 days","answer_contains":"30"}
+{"id":"q16","question":"How fast does the security team respond to critical incidents?","type":"english_fact","answerable":true,"expected_file":"it_security_en.txt","expected_text":"2 hours","answer_contains":"2"}
+{"id":"q17","question":"How long do software requests take to be answered?","type":"english_fact","answerable":true,"expected_file":"it_security_en.txt","expected_text":"5 business days","answer_contains":"5"}
+{"id":"q18","question":"كم يجب أن يكون طول كلمة المرور؟","type":"cross_language","answerable":true,"expected_file":"it_security_en.txt","expected_text":"12 characters","answer_contains":"12"}
+{"id":"q19","question":"خلال كم ساعة يجب الإبلاغ عن جهاز مفقود؟","type":"cross_language","answerable":true,"expected_file":"it_security_en.txt","expected_text":"24 hours","answer_contains":"24"}
+{"id":"q20","question":"ما عاصمة بيرو؟","type":"unanswerable","answerable":false}
+{"id":"q21","question":"What is the CEO's favorite color?","type":"unanswerable","answerable":false}
+{"id":"q22","question":"كم راتب المدير العام؟","type":"unanswerable","answerable":false}
+{"id":"q23","question":"What is the office Wi-Fi password?","type":"unanswerable","answerable":false}
+{"id":"q24","question":"هل توجد حضانة أطفال في الشركة؟","type":"unanswerable","answerable":false}
+{"id":"q25","question":"How many employees does the company have?","type":"unanswerable","answerable":false}
