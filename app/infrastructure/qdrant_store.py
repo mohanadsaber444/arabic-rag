@@ -57,6 +57,8 @@ class QdrantVectorStore:
         top_k: int,
         document_ids: list[str] | None = None,
     ) -> list[RetrievedChunk]:
+        if not self._client.collection_exists(collection):
+            return []  # nothing ingested yet: no hits, so the answer is a clean refusal
         query_filter = None
         if document_ids:
             query_filter = Filter(

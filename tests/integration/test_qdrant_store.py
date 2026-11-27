@@ -19,9 +19,19 @@ def store_and_col():
 
 
 def make_chunks(col, n=3):
-    return [Chunk(id=str(uuid.uuid4()), document_id="d1", document_version=1,
-                  collection=col, filename="a.pdf", ordinal=i, page=1, text=f"chunk {i}")
-            for i in range(n)]
+    return [
+        Chunk(
+            id=str(uuid.uuid4()),
+            document_id="d1",
+            document_version=1,
+            collection=col,
+            filename="a.pdf",
+            ordinal=i,
+            page=1,
+            text=f"chunk {i}",
+        )
+        for i in range(n)
+    ]
 
 
 def make_vectors(n=3):
@@ -54,3 +64,8 @@ def test_model_mismatch_raises(store_and_col):
     store.upsert(col, make_chunks(col, 1), make_vectors(1), "m1")
     with pytest.raises(EmbeddingModelMismatchError):
         store.ensure_collection(col, DIM, "m2")
+
+
+def test_search_on_a_missing_collection_returns_nothing():
+    store = QdrantVectorStore("http://localhost:6333")
+    assert store.search("missing_" + uuid.uuid4().hex[:8], make_vectors(1)[0], 3) == []
